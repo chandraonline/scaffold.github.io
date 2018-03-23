@@ -1,0 +1,21 @@
+plugins: [jekyll-paginate, jekyll-gist]
+permalink: pretty
+timezone: America/Los_Angeles
+title: <your-site-title>
+author:
+name: '<your-name>'
+description: <your-blog-description>
+show_downloads: false
+url: https://<your-github-username>.github.io
+baseurl: /
+repository: github.com/<your-github-username>/<your-github-username>.github.io
+
+paginate: 5
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
